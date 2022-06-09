@@ -85,7 +85,7 @@ namespace Examen_Unidad_6
                             IAmazon Inv = new IAmazon(nombre, descripcion, precio, stock);
 
                             //Captura dentro del archivo
-                            sw.WriteLine("\t~ Inventario Amazon ~");
+                            sw.WriteLine("\n\t~ Inventario Amazon ~");
                             sw.WriteLine("Producto: {0}" , Inv.nombre);
                             sw.WriteLine("Descripción del Producto: {0}", Inv.descripcion);
                             sw.WriteLine("Precio del Producto: {0:C}", Inv.precio);
@@ -100,10 +100,9 @@ namespace Examen_Unidad_6
                                 //Invoque de metodos
                                 Inv.Productos();
                                 Console.WriteLine("Presiona ENTER para continuar...");
+                                Console.ReadKey();
                                 Console.Clear();
                             }
-
-                            
                         }
                         catch (IOException e)
                         {
@@ -116,6 +115,7 @@ namespace Examen_Unidad_6
                             Console.WriteLine("Error: " + e.Message);
                             Console.WriteLine("Ruta: " + e.StackTrace);
                         }
+                        sw.Close();
                         break;
 
                     case 2:

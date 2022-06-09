@@ -1,0 +1,10 @@
+	~ Inventario Amazon ~
+Producto: Alexa
+Descripción del Producto: Bocina Inteligente de multiples acciones
+Precio del Producto: $900.00
+Quedan: 6 unidades en stock del producto Alexa
+	~ Inventario Amazon ~
+Producto: Webcam Logitech C920
+Descripción del Producto: Camara web 30fps 1080p
+Precio del Producto: $1,200.99
+Quedan: 20 unidades en stock del producto Webcam Logitech C920
